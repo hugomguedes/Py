@@ -1,0 +1,8 @@
+name= input("digite: ")
+print ("o tipo é", type(name))
+print ("tem espaços?", name.isspace())
+print ("é um numero?", name.isnumeric())
+print ("é alfabetico?", name.isalpha())
+print ("é minusculo?", name.islower())
+print ("é maiusculo?", name.isupper())
+print ("esta capitalizada?", name.istitle())
